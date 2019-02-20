@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  font-family: 'Nunito', sans-serif;
+	padding-top: 80px;
+}
+
+#hero {
+  background: url('../img/bg.png');
+}
+
+.rodape {
+	background: url('../img/banner-grid.png');
+}
+
+@media (min-width: 931px){
+  #hero, .rodape {
+    background-size: 70em;
+  }
+}
+
+@media (max-width: 931px){
+  #hero, .rodape {
+    background-size: 70em;
+  }
+}
+
+@media (max-width: 815px){
+  #hero, .rodape {
+    background-size: 65em;
+  }
+}
+
+@media (max-width: 729px){
+  #hero, .rodape {
+    background-size: 60em;
+  }
+}
+
+@media (max-width: 669px){
+  #hero, .rodape {
+    background-size: 55em;
+  }
+}
+
+@media (max-width: 600px){
+  #hero, .rodape {
+    background-size: 50em;
+  }
+}
+
+@media (max-width: 550px){
+  #hero, .rodape {
+    background-size: 40em;
+  }
+}
+
+@media (max-width: 450px){
+  #hero, .rodape {
+    background-size: 35em;
+  }
+}
+
+@media (max-width: 388px){
+  #hero, .rodape {
+    background-size: 32em;
+  }
+}
+
+@media (max-width: 354px){
+  #hero, .rodape {
+    background-size: 30em;
+  }
+}
+
+@media (max-width: 322px){
+  #hero, .rodape {
+    background-size: 28em;
+  }
+}
+
+@media (max-width: 300px){
+  #hero, .rodape {
+    background-size: 25em;
+  }
+}
+
+@media (max-width: 270px){
+  #hero, .rodape {
+    background-size: 20em;
+  }
+}
+
+.bg-info1{
+  background: #e37128 !important;
+}
+
+.badge-warning{
+  color: #fff;
+}
+
+.h3-text{
+  color: #e37128 !important;
+}
+
+
+.h2-text{
+  color: #17a2b8 !important;
+}
+
+.text-y{
+  color: #e5ad24 !important;
+}
+.text-info {
+    color: #ffff !important;
+}
+.icon {
+	fill: #fff;
+	max-width: 2em;
+	max-height: 2em;
+}
+
+.social-icon {
+  fill: #e37128;
+}
+
+.social-icon:hover {
+  fill: #cc8400;
+}
+
+.skew{
+  -ms-transform:skewY(-2deg);
+  -webkit-transform:skewY(-2deg);
+  transform:skewY(-2deg);
+}
+
+.skew-reverse{
+  -ms-transform:skewY(2deg);
+  -webkit-transform:skewY(2deg);
+  transform:skewY(2deg);
+}
+
+.skew-org{
+  -ms-transform:skewY(2deg);
+  -webkit-transform:skewY(2deg);
+  transform:skewY(2deg);
+}
+
+.skew-reverse-org{
+  -ms-transform:skewY(-2deg);
+  -webkit-transform:skewY(-2deg);
+  transform:skewY(-2deg);
+}
+
+.filter-member {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.hr-15-laranja {
+  width: 15%;
+  background-color: #e47128;
+}
+
+.hr-15-branco {
+  width: 15%;
+  background-color: #fff;
+}
+
+.hr-15-verde {
+  width: 15%;
+  background-color: #00878f;
+}
+
+.map {
+  height: 50vh;
+  width: 100%;
+}
