@@ -1,9 +1,8 @@
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-
-gem "jekyll", "~> 3.8"
+gem 'jekyll'
 
 group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 end
